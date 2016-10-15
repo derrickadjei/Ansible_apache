@@ -1,0 +1,48 @@
+Last login: Sat Oct 15 17:07:46 on ttys000
+MacBook-Pro:~ derrickadjie$ cd desktop
+MacBook-Pro:desktop derrickadjie$ nano hosts 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  GNU nano 2.0.6               File: hosts                            Modified  
+
+[apache]
+server_ip ansible_ssh_user=username
+secondary_server_ip ansible_ssh_user=username
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+^G Get Help  ^O WriteOut  ^R Read File ^Y Prev Page ^K Cut Text  ^C Cur Pos
+^X Exit      ^J Justify   ^W Where Is  ^V Next Page ^U UnCut Text^T To Spell
