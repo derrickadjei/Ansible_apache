@@ -16,6 +16,7 @@ How to get set up.
 
 These instructions are assuming that you have your SSH keys properly configured and added to you VPS servers for Ansible to work.
 
-1.	 Include your SSH keys to the webserver group. To do this you need to go to hosts and included each server key to the group [web].
-2.	Run ansible-playbook –I hosts playbook.yml in the command line within the root directory
-3.	Job Done  Enjoy the prowess of Automation. *Drops Mic*
+1. If you have not already, you would need to install and configure Ansible to be able to manage your servers.
+2. Include your SSH keys to the webserver group. To do this you need to go to hosts and included each server key to the group [web].
+3.	Run *ansible-playbook –I hosts playbook.yml* in the command line within the root directory
+4.	Ansible should now run through the instructions we have given within the playbook and complete this task. Enjoy the prowess of Automation. *Drops Mic*
